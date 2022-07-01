@@ -8,8 +8,9 @@ public class main {
 		ReverseString conversor = new ReverseString();
 		String text = "";
 		
-		text = JOptionPane.showInputDialog(null, "Insira palavra a ser convertida:");
-		JOptionPane.showMessageDialog(null, conversor.getReverseString(text));
+		while(true) {
+				text = JOptionPane.showInputDialog(null, "Insira palavra a ser convertida:");
+				JOptionPane.showMessageDialog(null, conversor.getReverseString(text));
+		}
 	}
-
 }
